@@ -128,8 +128,8 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 gap-3">
             {[
-              { num: "5+", label: "Products Shipped" },
-              { num: "4", label: "Industries" },
+              { num: "25+", label: "Products Shipped" },
+              { num: "6", label: "Industries" },
               { num: "100%", label: "Client Retention" },
               { num: "4+", label: "Yrs Combined Exp." },
             ].map(({ num, label }) => (
