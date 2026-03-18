@@ -46,9 +46,9 @@ const steps = [
 ];
 
 const stats = [
-  { value: "5+", label: "Products Shipped" },
+  { value: "25+", label: "Products Shipped" },
   { value: "100%", label: "Client Satisfaction" },
-  { value: "4", label: "Industries Served" },
+  { value: "6", label: "Industries Served" },
   { value: "5 wks", label: "Avg Time to MVP" },
 ];
 
