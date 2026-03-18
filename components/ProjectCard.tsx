@@ -1,5 +1,5 @@
 // components/ProjectCard.tsx
-import { Clock, Users } from "lucide-react";
+import { Clock, Users, ExternalLink } from "lucide-react";
 
 export interface Project {
   id: number;
@@ -16,6 +16,7 @@ export interface Project {
   gradient: string;
   icon: string;
   duration: string;
+  link?: string;
 }
 
 interface ProjectCardProps {
@@ -117,6 +118,17 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
             </span>
           ))}
         </div>
+        {project.link && (
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex items-center gap-1.5 text-xs font-mono text-cyan hover:text-white transition-colors"
+          >
+            <ExternalLink size={11} />
+            Visit live site
+          </a>
+        )}
       </div>
     </div>
   );

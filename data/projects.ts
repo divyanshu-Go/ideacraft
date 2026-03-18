@@ -3,6 +3,30 @@ import type { Project } from "@/components/ProjectCard";
 
 export const projects: Project[] = [
   {
+    id: 0,
+    title: "Interio97",
+    description: "E-commerce platform for an interior materials retailer",
+    longDescription:
+      "Amrita Interior & Design, a Delhi-based retailer of premium interior materials, needed a full online store to reach customers beyond their physical location and reduce dependence on phone/WhatsApp orders.",
+    problem:
+      "The business had 12+ product categories — wallpapers, PVC panels, wooden flooring, 3D panels, ACP sheets and more — with no way to showcase them online, accept payments, or manage orders digitally.",
+    solution:
+      "Built a complete e-commerce platform with category and application-based browsing, product pages with discount pricing, pincode-based delivery detection, cart, user accounts with order history, and WhatsApp/call CTAs on every product.",
+    results: [
+      "12+ product categories live with full catalog management",
+      "Customers can browse by room type — Kitchen, Bedroom, Bathroom",
+      "Owner manages products, pricing & discounts via admin dashboard",
+    ],
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Razorpay"],
+    category: "E-commerce",
+    clientType: "Interior Materials Retailer, Delhi",
+    status: "Live",
+    gradient: "from-amber-400 to-orange-500",
+    icon: "🏠",
+    duration: "8 weeks",
+    link: "https://www.interio97.in",
+  },
+  {
     id: 1,
     title: "ZestMart",
     description: "E-commerce platform for a local retail chain",
